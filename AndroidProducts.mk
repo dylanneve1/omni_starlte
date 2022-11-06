@@ -6,9 +6,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_starlte.mk
+    $(LOCAL_DIR)/twrp_starlte.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_starlte-user \
-    omni_starlte-userdebug \
-    omni_starlte-eng
+COMMON_LUNCH_CHOICES := twrp_starlte-eng
